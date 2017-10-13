@@ -23,7 +23,6 @@ function getGameStatus() {
     }
 }
 
-
 function hasAvailableMove() {
   for (let i = 0; i < boardState.length; i++) {
       if (!boardState[i]) 
